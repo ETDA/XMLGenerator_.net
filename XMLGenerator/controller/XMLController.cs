@@ -38,7 +38,13 @@ namespace XMLGenerator.controller
 
 			TreverseLevel(templateDocument.DocumentElement, null, null, userParameter);
 
-			outputDocument.Save(userParameter.getOutputFileName());
+			//2021-07-12 --- change "schemaLocation" to  xsi:schemaLocation 
+			string word = outputDocument.InnerXml.ToString();
+			string str = word.Replace("schemaLocation", "xsi:schemaLocation");
+			outputDocument.InnerXml = str.ToString();
+			//--End Edit----
+			
+			outputDocument.Save(userParameter.getOutputFileName()); 
 		}
 
 		private void TreverseLevel(XmlNode xmlNode, XmlNode parentNode, XmlElement outputElement, UserParameter userParameter)
@@ -81,8 +87,8 @@ namespace XMLGenerator.controller
                 {
 					//Non-root node
 					insertingElement = outputDocument.CreateElement(xmlNode.Name, xmlNode.NamespaceURI);
-
-
+					
+									
 					if (xmlNode.ChildNodes.Count > 1)
                     {
 						//Console.WriteLine(xmlNode.Name + " is complex ");
@@ -231,10 +237,14 @@ namespace XMLGenerator.controller
                     {
 						foreach (XmlAttribute namespaceAttribute in namespaceAttributeList)
 						{
+							
 							insertingElement.SetAttribute(namespaceAttribute.Name, namespaceAttribute.Value);
 						}
                     }
+					 
 					outputDocument.AppendChild(insertingElement);
+					//outputDocument.InnerXml = str;
+					 
 
 				}
 

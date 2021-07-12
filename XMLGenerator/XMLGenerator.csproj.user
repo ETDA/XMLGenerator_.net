@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>-parameter "T02\\parameter.json" -template "T02\\template.xml" -database "T02\\db.json" -schemas "T02\\ClinicServicesEstb_V1_20201222_1445" -wait "true" -deleteIncomplete "false"</StartArguments>
+    <StartArguments>-parameter "T01\\parameter.json" -template "T01\\template.xml" -database "T01\\db.json" -schemas "T01\\ScoreReport_V1_20201228_1505" -wait "true" -deleteIncomplete "false"</StartArguments>
   </PropertyGroup>
 </Project>

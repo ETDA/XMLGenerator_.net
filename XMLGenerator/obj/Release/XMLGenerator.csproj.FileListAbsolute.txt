@@ -1,0 +1,51 @@
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\XMLGenerator.exe.config
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\XMLGenerator.exe
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\XMLGenerator.pdb
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.ElementModel.dll
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.Serialization.dll
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.STU3.Core.dll
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.STU3.Specification.dll
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.Support.dll
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.Support.Poco.dll
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.FhirPath.dll
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Newtonsoft.Json.dll
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\System.ValueTuple.dll
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.ElementModel.xml
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.Serialization.xml
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.STU3.Core.xml
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.STU3.Specification.xml
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.Support.xml
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.Support.Poco.xml
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Hl7.FhirPath.xml
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\Newtonsoft.Json.xml
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\bin\Release\System.ValueTuple.xml
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\obj\Release\XMLGenerator.csproj.CoreCompileInputs.cache
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\obj\Release\XMLGenerator.csproj.CopyComplete
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\obj\Release\XMLGenerator.exe
+E:\OneDrive\FRONTIS\ETDA\04 Development\02 Library\01 XML Generator\.net\XMLGenerator_20210409\XMLGenerator\XMLGenerator\obj\Release\XMLGenerator.pdb
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\XMLGenerator.exe.config
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\XMLGenerator.exe
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\XMLGenerator.pdb
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.ElementModel.dll
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.Serialization.dll
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.STU3.Core.dll
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.STU3.Specification.dll
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.Support.dll
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.Support.Poco.dll
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.FhirPath.dll
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Newtonsoft.Json.dll
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\System.ValueTuple.dll
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.ElementModel.xml
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.Serialization.xml
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.STU3.Core.xml
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.STU3.Specification.xml
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.Support.xml
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.Fhir.Support.Poco.xml
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Hl7.FhirPath.xml
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\Newtonsoft.Json.xml
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\bin\Release\System.ValueTuple.xml
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\obj\Release\XMLGenerator.csprojAssemblyReference.cache
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\obj\Release\XMLGenerator.csproj.CoreCompileInputs.cache
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\obj\Release\XMLGenerator.csproj.CopyComplete
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\obj\Release\XMLGenerator.exe
+D:\2021_XML_Lib\20210428\01_XMLGenerator\.net\Source Code\XMLGenerator\XMLGenerator\XMLGenerator\obj\Release\XMLGenerator.pdb

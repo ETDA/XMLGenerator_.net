@@ -88,6 +88,7 @@ namespace XMLGenerator.controller
             {
                 //Console.WriteLine("Name: " + attribute.Name.LocalName + " / Value: " + attribute.Value);
                 nameSpaceList.Add(attribute.Value, attribute.Name.LocalName);
+
             }
             
         }
