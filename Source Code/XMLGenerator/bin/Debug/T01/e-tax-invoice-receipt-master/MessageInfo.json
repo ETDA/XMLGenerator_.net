@@ -1,0 +1,45 @@
+{
+    "standardName": "E-Tax Invoice and E-Receipt",
+    "standardCode": "ขมธอ.3-2560",
+    "version": "2.0",
+    "messages" : [
+        {
+            "rootTagName": "TaxInvoice_CrossIndustryInvoice",
+            "versionPath": "/TaxInvoice_CrossIndustryInvoice/ExchangedDocumentContext/GuidelineSpecifiedDocumentContextParameter/ID/@schemeVersionID",
+            "schemaFilePath": "/ETDA/data/standard/TaxInvoice_CrossIndustryInvoice_2p0.xsd",
+            "schematronFilePath": "/ETDA/data/standard/TaxInvoice_Schematron_2p0.sch"
+        },
+        {
+            "rootTagName": "Receipt_CrossIndustryInvoice",
+            "versionPath": "/Receipt_CrossIndustryInvoice/ExchangedDocumentContext/GuidelineSpecifiedDocumentContextParameter/ID/@schemeVersionID",
+            "schemaFilePath": "/ETDA/data/standard/Receipt_CrossIndustryInvoice_2p0.xsd",
+            "schematronFilePath": "/ETDA/data/standard/Receipt_Schematron_2p0.sch"
+        },
+        {
+            "rootTagName": "Invoice_CrossIndustryInvoice",
+            "versionPath": "/Invoice_CrossIndustryInvoice/ExchangedDocumentContext/GuidelineSpecifiedDocumentContextParameter/ID/@schemeVersionID",
+            "schemaFilePath": "/ETDA/data/standard/Invoice_CrossIndustryInvoice_2p0.xsd",
+            "schematronFilePath": "/ETDA/data/standard/Invoice_Schematron_2p0.sch"
+        },
+        {
+            "rootTagName": "DebitCreditNote_CrossIndustryInvoice",
+            "versionPath": "/DebitCreditNote_CrossIndustryInvoice/ExchangedDocumentContext/GuidelineSpecifiedDocumentContextParameter/ID/@schemeVersionID",
+            "schemaFilePath": "/ETDA/data/standard/DebitCreditNote_CrossIndustryInvoice_2p0.xsd",
+            "schematronFilePath": "/ETDA/data/standard/DebitCreditNote_Schematron_2p0.sch"
+        },
+        {
+            "rootTagName": "AbbreviatedTaxInvoice_CrossIndustryInvoice",
+            "versionPath": "/AbbreviatedTaxInvoice_CrossIndustryInvoice/ExchangedDocumentContext/GuidelineSpecifiedDocumentContextParameter/ID/@schemeVersionID",
+            "schemaFilePath": "/ETDA/data/standard/AbbreviatedTaxInvoice_CrossIndustryInvoice_2p0.xsd",
+            "schematronFilePath": "/ETDA/data/standard/AbbreviatedTaxInvoice_Schematron_2p0.sch"
+        },
+        {
+            "rootTagName": "CancellationNote_CrossIndustryInvoice",
+            "versionPath": "/CancellationNote_CrossIndustryInvoice/ExchangedDocumentContext/GuidelineSpecifiedDocumentContextParameter/ID/@schemeVersionID",
+            "schemaFilePath": "/ETDA/data/standard/CancellationNote_CrossIndustryInvoice_2p0.xsd",
+            "schematronFilePath": "/ETDA/data/standard/CancellationNote_Schematron_2p0.sch"
+        }
+    ]
+    
+
+}
