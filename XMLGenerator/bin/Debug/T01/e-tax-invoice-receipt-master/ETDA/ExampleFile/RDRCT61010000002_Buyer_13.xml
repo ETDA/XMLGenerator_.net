@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../data/standard/Receipt_Schematron_2p0.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<rsm:Receipt_CrossIndustryInvoice xmlns:ram="urn:etda:uncefact:data:standard:Receipt_ReusableAggregateBusinessInformationEntity:2" 
+xmlns:rsm="urn:etda:uncefact:data:standard:Receipt_CrossIndustryInvoice:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="urn:etda:uncefact:data:standard:Receipt_CrossIndustryInvoice:2 file:../data/standard/Receipt_CrossIndustryInvoice_2p0.xsd">
+
+<rsm:ExchangedDocumentContext>
+<ram:GuidelineSpecifiedDocumentContextParameter>
+<ram:ID schemeAgencyID="ETDA" schemeVersionID="v2.0">ER3-2560</ram:ID>
+</ram:GuidelineSpecifiedDocumentContextParameter>
+</rsm:ExchangedDocumentContext>
+<rsm:ExchangedDocument>
+<ram:ID>RDRCT61010000002</ram:ID>
+<ram:Name>ใบรับ</ram:Name>
+<ram:TypeCode>T01</ram:TypeCode>
+<ram:IssueDateTime>2018-01-09T15:12:41.0</ram:IssueDateTime>
+<ram:CreationDateTime>2018-01-09T15:12:41.0</ram:CreationDateTime>
+</rsm:ExchangedDocument>
+<rsm:SupplyChainTradeTransaction>
+<ram:ApplicableHeaderTradeAgreement>
+<ram:SellerTradeParty>
+<ram:Name>บริษัท สยามคูโบต้าคอร์ปอเรชั่น จำกัด</ram:Name>
+<ram:SpecifiedTaxRegistration>
+<ram:ID schemeAgencyID="RD" schemeID="TXID">013555300911100000</ram:ID>
+</ram:SpecifiedTaxRegistration>
+<ram:DefinedTradeContact>
+<ram:EmailURIUniversalCommunication>
+<ram:URIID>kyofong@gmail.com</ram:URIID>
+</ram:EmailURIUniversalCommunication>
+<ram:TelephoneUniversalCommunication>
+<ram:CompleteNumber>+66-29090300</ram:CompleteNumber>
+</ram:TelephoneUniversalCommunication>
+</ram:DefinedTradeContact>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>12120</ram:PostcodeCode>
+<ram:LineThree>นิคมอุตสาหกรรมนวนคร</ram:LineThree>
+<ram:LineFive>20</ram:LineFive>
+<ram:CityName>1302</ram:CityName>
+<ram:CitySubDivisionName>130201</ram:CitySubDivisionName>
+<ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+<ram:CountrySubDivisionID>13</ram:CountrySubDivisionID>
+<ram:BuildingNumber>101/19-24</ram:BuildingNumber>
+</ram:PostalTradeAddress>
+</ram:SellerTradeParty>
+<ram:BuyerTradeParty>
+<ram:Name>กอ</ram:Name>
+<ram:SpecifiedTaxRegistration>
+    <ram:ID>0135553009222</ram:ID>
+</ram:SpecifiedTaxRegistration>
+<ram:PostalTradeAddress>
+<ram:PostcodeCode>11111</ram:PostcodeCode>
+<ram:CityName>8104</ram:CityName>
+<ram:CitySubDivisionName>810402</ram:CitySubDivisionName>
+<ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+<ram:CountrySubDivisionID>81</ram:CountrySubDivisionID>
+<ram:BuildingNumber>53543</ram:BuildingNumber>
+</ram:PostalTradeAddress>
+</ram:BuyerTradeParty>
+</ram:ApplicableHeaderTradeAgreement>
+<ram:ApplicableHeaderTradeDelivery>
+</ram:ApplicableHeaderTradeDelivery>
+<ram:ApplicableHeaderTradeSettlement>
+<ram:InvoiceCurrencyCode listID="ISO 4217 3A">THB</ram:InvoiceCurrencyCode>
+<ram:ApplicableTradeTax>
+<ram:TypeCode>VAT</ram:TypeCode>
+<ram:CalculatedRate>7</ram:CalculatedRate>
+<ram:BasisAmount>2000</ram:BasisAmount>
+<ram:CalculatedAmount>140</ram:CalculatedAmount>
+</ram:ApplicableTradeTax>
+<ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+<ram:LineTotalAmount>2000</ram:LineTotalAmount>
+<ram:TaxBasisTotalAmount>2000</ram:TaxBasisTotalAmount>
+<ram:TaxTotalAmount>140</ram:TaxTotalAmount>
+<ram:GrandTotalAmount>2140</ram:GrandTotalAmount>
+</ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+</ram:ApplicableHeaderTradeSettlement>
+<ram:IncludedSupplyChainTradeLineItem>
+<ram:AssociatedDocumentLineDocument>
+<ram:LineID>1</ram:LineID>
+</ram:AssociatedDocumentLineDocument>
+<ram:SpecifiedTradeProduct>
+<ram:ID>001</ram:ID>
+<ram:Name>ดินสอ</ram:Name>
+</ram:SpecifiedTradeProduct>
+<ram:SpecifiedLineTradeAgreement>
+<ram:GrossPriceProductTradePrice>
+<ram:ChargeAmount>1</ram:ChargeAmount>
+</ram:GrossPriceProductTradePrice>
+</ram:SpecifiedLineTradeAgreement>
+<ram:SpecifiedLineTradeDelivery>
+<ram:BilledQuantity>0</ram:BilledQuantity>
+</ram:SpecifiedLineTradeDelivery>
+<ram:SpecifiedLineTradeSettlement>
+<ram:SpecifiedTradeSettlementLineMonetarySummation>
+<ram:NetLineTotalAmount currencyID="THB">2000</ram:NetLineTotalAmount>
+<ram:NetIncludingTaxesLineTotalAmount currencyID="THB">2000</ram:NetIncludingTaxesLineTotalAmount>
+</ram:SpecifiedTradeSettlementLineMonetarySummation>
+</ram:SpecifiedLineTradeSettlement>
+</ram:IncludedSupplyChainTradeLineItem>
+</rsm:SupplyChainTradeTransaction>
+</rsm:Receipt_CrossIndustryInvoice>

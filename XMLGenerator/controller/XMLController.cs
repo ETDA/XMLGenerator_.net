@@ -258,6 +258,7 @@ namespace XMLGenerator.controller
 			int total;
 			if (xmlNode.ChildNodes.Count > 1)
             {
+                /*2026-01-08 Code นี้จะ export ได้แค่ row เดียว
 				XmlNode firstChildElement = xmlNode.FirstChild;
 				try
                 {
@@ -265,9 +266,26 @@ namespace XMLGenerator.controller
 				} catch (Exception)
                 {
 					total = 0;
-				}
-				
-			} 
+				}*/
+                /*2026-01-08 Code นี้จะ export ทุก row จากที่ Query มา*/
+                XmlNode firstDbRefNode = null;
+
+                foreach (XmlNode cn in xmlNode.ChildNodes)
+                {
+                    if (cn.NodeType == XmlNodeType.Element &&
+                        cn.InnerText != null &&
+                        cn.InnerText.Trim().StartsWith("@"))
+                    {
+                        firstDbRefNode = cn;
+                        break;
+                    }
+                }
+
+                if (firstDbRefNode != null)
+                    total = getDatabaseController().checkAll(firstDbRefNode.InnerText.Trim());
+                else
+                    total = 0;
+            } 
 			else
             {
 				total = 0;
@@ -293,7 +311,7 @@ namespace XMLGenerator.controller
 		/**
 		 * @return the templateFile
 		 */
-		public string getTemplateFile()
+        public string getTemplateFile()
 		{
 			return templateFile;
 		}

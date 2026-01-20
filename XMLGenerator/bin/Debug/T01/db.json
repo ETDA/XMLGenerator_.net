@@ -1,0 +1,23 @@
+{
+    "databaseType": "MSSQL",
+    "hostName": "localhost",
+    "databaseName": "etaxdb",
+	"port": "1433",
+    "userName": "sa",
+    "password": "P@ssw0rd",
+	"parameter_biding": [
+		{
+			"tableName": "ExchangeDocument",
+			"orderBy": "DocID",
+			"where": "DocID=@param1"
+		},
+		{
+			"tableName": "TradeLineItem",
+			"orderBy": "DocID,ItemId,ItemName",
+			"where": "DocID=@param2"
+		} 
+	]
+}
+
+
+

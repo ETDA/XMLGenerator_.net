@@ -37,6 +37,7 @@ namespace XMLGenerator
             List<UserParameter> userParameterList = parameterController.getUserParameterList();
             if (libraryparamList["-wait"] != null)
             {
+                
                 waitIndicator = libraryparamList["-wait"].Equals("true", StringComparison.InvariantCultureIgnoreCase) == true ? true : false;
             }
 

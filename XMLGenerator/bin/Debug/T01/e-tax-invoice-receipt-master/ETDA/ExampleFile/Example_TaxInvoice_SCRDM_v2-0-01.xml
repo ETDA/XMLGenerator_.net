@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rsm:TaxInvoice_CrossIndustryInvoice 
+ xmlns:ram="urn:etda:uncefact:data:standard:TaxInvoice_ReusableAggregateBusinessInformationEntity:2"
+ xmlns:rsm="urn:etda:uncefact:data:standard:TaxInvoice_CrossIndustryInvoice:2"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:etda:uncefact:data:standard:TaxInvoice_CrossIndustryInvoice:2 file:../data/standard/TaxInvoice_CrossIndustryInvoice_2p0.xsd">
+    <rsm:ExchangedDocumentContext>
+        <ram:GuidelineSpecifiedDocumentContextParameter>
+            <ram:ID schemeVersionID="v1.0">ER3-2558</ram:ID>
+        </ram:GuidelineSpecifiedDocumentContextParameter>
+    </rsm:ExchangedDocumentContext>
+    <rsm:ExchangedDocument>
+        <ram:ID>423-612</ram:ID>
+        <ram:Name>xxx</ram:Name>
+        <ram:TypeCode>388</ram:TypeCode>
+        <ram:IssueDateTime>2006-05-04T00:00:00.0</ram:IssueDateTime>
+        <ram:Purpose>:pZJSMeL</ram:Purpose>
+        <ram:PurposeCode>DBNG01</ram:PurposeCode>
+        <ram:GlobalID schemeID="OID" schemeAgencyID="ETDA">2.16.764.1.0.x</ram:GlobalID> 
+        <ram:CreationDateTime>2006-05-04T15:30:00.0</ram:CreationDateTime>
+        <ram:IncludedNote>
+            <ram:Subject>oM8G2oV7</ram:Subject>
+            <ram:Content>A2BcyVpQ</ram:Content>
+        </ram:IncludedNote>
+    </rsm:ExchangedDocument>
+    <rsm:SupplyChainTradeTransaction>
+        <ram:ApplicableHeaderTradeAgreement>
+            <ram:SellerTradeParty>
+               <ram:Name>aaaTest</ram:Name>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID schemeID="TaxID" schemeAgencyID="RD">333333333333300000</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+                <ram:DefinedTradeContact>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:URIID>mailto:aaa</ram:URIID>
+                        <ram:CompleteNumber>sopittha@etda.or.th</ram:CompleteNumber>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>10240</ram:PostcodeCode>
+                    <ram:BuildingName>เดอะมอลล์บางกะปิ</ram:BuildingName>
+                    <ram:StreetName>ลาดพร้าว</ram:StreetName>
+                    <ram:CityName>บางงกะปิ</ram:CityName>
+                    <ram:CitySubDivisionName>คลองจั่น</ram:CitySubDivisionName>
+                    <ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+                    <ram:CountrySubDivisionID schemeID="3166-2 numeric">10</ram:CountrySubDivisionID>
+                    <ram:BuildingNumber>99</ram:BuildingNumber>
+                </ram:PostalTradeAddress>
+               
+            </ram:SellerTradeParty>
+            <ram:BuyerTradeParty>
+                <ram:Name>อติชาต ชัยแสง</ram:Name>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID schemeID="TaxID" schemeName="Tax Registration Number" schemeAgencyName="RD">9999999999999</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>10400</ram:PostcodeCode>
+                    <ram:BuildingName>อาคารเบญจจินดา</ram:BuildingName>
+                    <ram:StreetName>กำแพงเพชร 6</ram:StreetName>
+                    <ram:CityName>จตุจักร</ram:CityName>
+                    <ram:CitySubDivisionName>พหลโยธิน</ram:CitySubDivisionName>
+                    <ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+                    <ram:CountrySubDivisionID schemeID="3166-2 numeric">10</ram:CountrySubDivisionID>
+                    <ram:BuildingNumber>40/20</ram:BuildingNumber>
+                </ram:PostalTradeAddress>
+            </ram:BuyerTradeParty>         
+        </ram:ApplicableHeaderTradeAgreement>
+        <ram:ApplicableHeaderTradeDelivery>
+            <ram:ShipToTradeParty>
+                <ram:Name>ddd</ram:Name>
+            </ram:ShipToTradeParty>
+            <ram:ShipFromTradeParty>
+                <ram:ID>00001234</ram:ID>
+            </ram:ShipFromTradeParty>
+            <ram:ActualDeliverySupplyChainEvent>
+                <ram:OccurrenceDateTime>2006-05-04T18:13:51.0
+                </ram:OccurrenceDateTime>
+            </ram:ActualDeliverySupplyChainEvent>
+        </ram:ApplicableHeaderTradeDelivery>
+        <ram:ApplicableHeaderTradeSettlement>
+            <ram:InvoiceCurrencyCode listID="ISO 4217 3A">THB</ram:InvoiceCurrencyCode>
+            <ram:ApplicableTradeTax>
+                 <ram:TypeCode>VAT</ram:TypeCode>
+                <ram:CalculatedRate>7</ram:CalculatedRate>
+                <ram:BasisAmount>100.00</ram:BasisAmount>
+                <ram:CalculatedAmount>1000.00</ram:CalculatedAmount>
+            </ram:ApplicableTradeTax>
+            <ram:SpecifiedHeaderTradeSettlementMonetarySummation>
+                <ram:AllowanceTotalAmount>50</ram:AllowanceTotalAmount>
+                <ram:TaxTotalAmount>12978</ram:TaxTotalAmount>
+                <ram:GrandTotalAmount>198628</ram:GrandTotalAmount>
+            </ram:SpecifiedHeaderTradeSettlementMonetarySummation>
+        </ram:ApplicableHeaderTradeSettlement>
+        <ram:IncludedSupplyChainTradeLineItem>
+            <ram:AssociatedDocumentLineDocument>
+                <ram:LineID>1</ram:LineID>
+            </ram:AssociatedDocumentLineDocument>
+            <ram:SpecifiedTradeProduct>                
+                <ram:Name>Computer Notebook Compag Presario1700</ram:Name>                
+            </ram:SpecifiedTradeProduct>
+            <ram:SpecifiedLineTradeAgreement>
+                <ram:GrossPriceProductTradePrice>
+                    <ram:ChargeAmount>90000.00</ram:ChargeAmount>
+                </ram:GrossPriceProductTradePrice>
+            </ram:SpecifiedLineTradeAgreement>
+            <ram:SpecifiedLineTradeDelivery>
+                <ram:BilledQuantity>2</ram:BilledQuantity>
+            </ram:SpecifiedLineTradeDelivery>
+            <ram:SpecifiedLineTradeSettlement>
+                <ram:SpecifiedTradeSettlementLineMonetarySummation>
+                    <ram:NetLineTotalAmount>179900.00</ram:NetLineTotalAmount>
+                </ram:SpecifiedTradeSettlementLineMonetarySummation>
+            </ram:SpecifiedLineTradeSettlement>
+        </ram:IncludedSupplyChainTradeLineItem>        
+    </rsm:SupplyChainTradeTransaction>
+</rsm:TaxInvoice_CrossIndustryInvoice>

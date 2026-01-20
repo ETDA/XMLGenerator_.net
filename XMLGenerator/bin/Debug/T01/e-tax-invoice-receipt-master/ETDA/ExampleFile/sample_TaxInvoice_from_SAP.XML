@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../data/standard/TaxInvoice_Schematron_2p0.sch"  type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<rsm:TaxInvoice_CrossIndustryInvoice
+ xmlns:rsm="urn:etda:uncefact:data:standard:TaxInvoice_CrossIndustryInvoice:2"
+ xmlns:ram="urn:etda:uncefact:data:standard:TaxInvoice_ReusableAggregateBusinessInformationEntity:2">
+	<rsm:ExchangedDocumentContext>
+		<ram:GuidelineSpecifiedDocumentContextParameter>
+			<ram:ID schemeAgencyID="ETDA" schemeVersionID="v2.0">ER3-2560</ram:ID>
+		</ram:GuidelineSpecifiedDocumentContextParameter>
+	</rsm:ExchangedDocumentContext>
+	<rsm:ExchangedDocument>
+		<ram:ID>RDTIV0575526000058001</ram:ID>
+		<!-- this id is random generated -->
+		<ram:Name>ใบกากับภาษี</ram:Name>
+		<ram:TypeCode listAgencyID="RD/ETDA">388</ram:TypeCode>
+		<ram:IssueDateTime>2017-02-08T10:05:01</ram:IssueDateTime>
+		<ram:CreationDateTime>2017-02-08T10:05:01</ram:CreationDateTime>
+		<ram:IncludedNote>
+			<ram:Subject>หมำยเหตุ</ram:Subject>
+		</ram:IncludedNote>
+	</rsm:ExchangedDocument>
+	<rsm:SupplyChainTradeTransaction>
+		<ram:ApplicableHeaderTradeAgreement>
+			<ram:SellerTradeParty>
+				<ram:Name>Sales Org. TH01</ram:Name>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID>TH3101247572</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>10310</ram:PostcodeCode>
+					<ram:LineOne>SAP Thailand</ram:LineOne>
+					<ram:LineTwo>จุฬำซอย</ram:LineTwo>
+					<ram:CityName>1004</ram:CityName>
+					<ram:CitySubDivisionName>100101</ram:CitySubDivisionName>
+					<ram:CountryID>TH</ram:CountryID>
+					<ram:CountrySubDivisionID>TH</ram:CountrySubDivisionID>
+					<ram:BuildingNumber>12345</ram:BuildingNumber>
+				</ram:PostalTradeAddress>
+			</ram:SellerTradeParty>
+			<ram:BuyerTradeParty>
+				<ram:Name>Thai Airways</ram:Name>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID>1234567890123</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>12345</ram:PostcodeCode>
+					<ram:LineOne>Thai Airways</ram:LineOne>
+					<ram:LineTwo>ltd.</ram:LineTwo>
+					<ram:CityName>1004</ram:CityName>
+					<ram:CitySubDivisionName>100101</ram:CitySubDivisionName>
+					<ram:CountryID>TH</ram:CountryID>
+					<ram:CountrySubDivisionID>TH</ram:CountrySubDivisionID>
+					<ram:BuildingNumber>87654</ram:BuildingNumber>
+				</ram:PostalTradeAddress>
+			</ram:BuyerTradeParty>
+			<ram:BuyerOrderReferencedDocument>
+				<ram:IssuerAssignedID>0090013240</ram:IssuerAssignedID>
+				<!-- currently we use billing document number -->
+			</ram:BuyerOrderReferencedDocument>
+		</ram:ApplicableHeaderTradeAgreement>
+		<ram:ApplicableHeaderTradeDelivery/>
+		<ram:ApplicableHeaderTradeSettlement>
+			<ram:InvoiceCurrencyCode>THB</ram:InvoiceCurrencyCode>
+			<ram:ApplicableTradeTax>
+				<ram:TypeCode>VAT</ram:TypeCode>
+				<ram:CalculatedRate>0.07</ram:CalculatedRate>
+				<ram:BasisAmount>1000.0</ram:BasisAmount>
+				<ram:CalculatedAmount>70.0</ram:CalculatedAmount>
+			</ram:ApplicableTradeTax>
+			<ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+				<ram:LineTotalAmount>1070.0</ram:LineTotalAmount>
+				<ram:TaxBasisTotalAmount>1000.0</ram:TaxBasisTotalAmount>
+				<ram:TaxTotalAmount>70.0</ram:TaxTotalAmount>
+				<ram:GrandTotalAmount>1070.0</ram:GrandTotalAmount>
+			</ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+			<ram:InvoicerTradeParty>
+				<ram:Name></ram:Name>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID>TH3101247572</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>10330</ram:PostcodeCode>
+					<ram:LineOne>SAP Thailand</ram:LineOne>
+					<ram:LineTwo>จุฬำซอย</ram:LineTwo>
+					<ram:CityName>1004</ram:CityName>
+					<ram:CitySubDivisionName>100101</ram:CitySubDivisionName>
+					<ram:CountryID>TH</ram:CountryID>
+					<ram:CountrySubDivisionID>TH</ram:CountrySubDivisionID>
+					<ram:BuildingNumber>12345</ram:BuildingNumber>
+				</ram:PostalTradeAddress>
+			</ram:InvoicerTradeParty>
+			<ram:InvoiceeTradeParty>
+				<ram:Name>Thai Airways</ram:Name>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID>1234567890123</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>12345</ram:PostcodeCode>
+					<ram:LineOne>Thai Airways</ram:LineOne>
+					<ram:LineTwo>ltd.</ram:LineTwo>
+					<ram:CityName>1004</ram:CityName>
+					<ram:CitySubDivisionName>100101</ram:CitySubDivisionName>
+					<ram:CountryID>TH</ram:CountryID>
+					<ram:CountrySubDivisionID>TH</ram:CountrySubDivisionID>
+					<ram:BuildingNumber>87654</ram:BuildingNumber>
+				</ram:PostalTradeAddress>
+			</ram:InvoiceeTradeParty>
+			<ram:PayerTradeParty>
+				<ram:Name>Thailand Company</ram:Name>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID>TH3101247572</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>10330</ram:PostcodeCode>
+					<ram:LineOne>SAP Thailand</ram:LineOne>
+					<ram:LineTwo>จุฬำซอย</ram:LineTwo>
+					<ram:CityName>1004</ram:CityName>
+					<ram:CitySubDivisionName>100101</ram:CitySubDivisionName>
+					<ram:CountryID>TH</ram:CountryID>
+					<ram:CountrySubDivisionID>TH</ram:CountrySubDivisionID>
+					<ram:BuildingNumber>12345</ram:BuildingNumber>
+				</ram:PostalTradeAddress>
+			</ram:PayerTradeParty>
+			<ram:PayeeTradeParty>
+				<ram:Name>Thai Airways</ram:Name>
+				<ram:SpecifiedTaxRegistration>
+					<ram:ID>1234567890123</ram:ID>
+				</ram:SpecifiedTaxRegistration>
+				<ram:PostalTradeAddress>
+					<ram:PostcodeCode>12345</ram:PostcodeCode>
+					<ram:LineOne>Thai Airways</ram:LineOne>
+					<ram:LineTwo>ltd.</ram:LineTwo>
+					<ram:CityName>1004</ram:CityName>
+					<ram:CitySubDivisionName>100101</ram:CitySubDivisionName>
+					<ram:CountryID>TH</ram:CountryID>
+					<ram:CountrySubDivisionID>TH</ram:CountrySubDivisionID>
+					<ram:BuildingNumber>87654</ram:BuildingNumber>
+				</ram:PostalTradeAddress>
+			</ram:PayeeTradeParty>
+		</ram:ApplicableHeaderTradeSettlement>
+		<ram:IncludedSupplyChainTradeLineItem>
+			<ram:AssociatedDocumentLineDocument>
+				<ram:LineID>000010</ram:LineID>
+				<!-- here we use the line number from sales order document -->
+			</ram:AssociatedDocumentLineDocument>
+			<ram:SpecifiedTradeProduct>
+				<ram:Name>THMATERIAL</ram:Name>
+				<ram:Description>CRT Monitors</ram:Description>
+			</ram:SpecifiedTradeProduct>
+			<ram:SpecifiedLineTradeAgreement>
+				<ram:GrossPriceProductTradePrice>
+					<ram:ChargeAmount>100.0</ram:ChargeAmount>
+					<!-- this amount we use the produce price directly -->
+				</ram:GrossPriceProductTradePrice>
+			</ram:SpecifiedLineTradeAgreement>
+			<ram:SpecifiedLineTradeDelivery>
+				<ram:BilledQuantity unitCode="
+              PIECE
+              ">10.0</ram:BilledQuantity>
+			</ram:SpecifiedLineTradeDelivery>
+			<ram:SpecifiedLineTradeSettlement>
+				<ram:SpecifiedTradeSettlementLineMonetarySummation>
+					<ram:NetLineTotalAmount>1000.0</ram:NetLineTotalAmount>
+					<ram:NetIncludingTaxesLineTotalAmount>1000.0</ram:NetIncludingTaxesLineTotalAmount>
+				</ram:SpecifiedTradeSettlementLineMonetarySummation>
+			</ram:SpecifiedLineTradeSettlement>
+		</ram:IncludedSupplyChainTradeLineItem>
+	</rsm:SupplyChainTradeTransaction>
+</rsm:TaxInvoice_CrossIndustryInvoice>
